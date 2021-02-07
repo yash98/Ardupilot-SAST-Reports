@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;pkt&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;pkt&apos; might be accessed at non-zero index." cwe="758" hash="9670255045379022396">
+            <location file="ardupilot/Tools/AP_Periph/hwing_esc.cpp" line="72" column="12"/>
+            <location file="ardupilot/Tools/AP_Periph/hwing_esc.cpp" line="71" column="35" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;mag_state&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;mag_state&apos; might be accessed at non-zero index." cwe="758" hash="7326522902618556364">
+            <location file="ardupilot/Tools/CPUInfo/EKF_Maths.cpp" line="22" column="10"/>
+            <location file="ardupilot/Tools/CPUInfo/EKF_Maths.cpp" line="20" column="25" info="Address of variable taken here."/>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrtf() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrtf() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="9565416388771063224">
+            <location file="ardupilot/Tools/CPUInfo/CPUInfo.cpp" line="49" column="63" info="Invalid argument"/>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: td.count" verbose="Uninitialized struct member: td.count" cwe="457" hash="11384957057293144983">
+            <location file="ardupilot/libraries/AP_BLHeli/AP_BLHeli.cpp" line="1418" column="34"/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;hdr&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;hdr&apos; might be accessed at non-zero index." cwe="758" hash="17510318583463000439">
+            <location file="ardupilot/libraries/AP_Filesystem/AP_Filesystem_Param.cpp" line="271" column="23"/>
+            <location file="ardupilot/libraries/AP_Filesystem/AP_Filesystem_Param.cpp" line="270" column="45" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;data&apos; is accessed at non-zero index." verbose="The address of local variable &apos;data&apos; is accessed at non-zero index." cwe="758" hash="17110152117220760292">
+            <location file="ardupilot/libraries/AP_Frsky_Telem/AP_Frsky_D.cpp" line="34" column="20"/>
+            <location file="ardupilot/libraries/AP_Frsky_Telem/AP_Frsky_D.cpp" line="32" column="23" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;v&apos; is accessed at non-zero index." verbose="The address of local variable &apos;v&apos; is accessed at non-zero index." cwe="758" hash="13880534058537311222">
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="53" column="15"/>
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="47" column="41" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;v&apos; is accessed at non-zero index." verbose="The address of local variable &apos;v&apos; is accessed at non-zero index." cwe="758" hash="17293615563474190556">
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="54" column="15"/>
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="47" column="41" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;v&apos; is accessed at non-zero index." verbose="The address of local variable &apos;v&apos; is accessed at non-zero index." cwe="758" hash="13098609211567509720">
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="55" column="15"/>
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="47" column="41" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;v&apos; is accessed at non-zero index." verbose="The address of local variable &apos;v&apos; is accessed at non-zero index." cwe="758" hash="889911104258920634">
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="69" column="15"/>
+            <location file="ardupilot/libraries/AP_GPS/GPS_Backend.cpp" line="63" column="41" info="Address of variable taken here."/>
+        </error>
+        <error id="internalAstError" severity="error" msg="AST broken: endless recursion from &apos;Functor&apos;" verbose="AST broken: endless recursion from &apos;Functor&apos;">
+            <location file="ardupilot/libraries/AP_HAL/utility/functor.h" line="45" column="15"/>
+        </error>
+        <error id="leakReturnValNotUsed" severity="error" msg="Return value of allocation function &apos;calloc&apos; is not stored." verbose="Return value of allocation function &apos;calloc&apos; is not stored." cwe="771" hash="1844495928607137020">
+            <location file="ardupilot/libraries/AP_GPS/AP_GPS.cpp" line="1292" column="45"/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;val&apos; is accessed at non-zero index." verbose="The address of local variable &apos;val&apos; is accessed at non-zero index." cwe="758" hash="12408102983156994121">
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="104" column="16"/>
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="93" column="34" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;val&apos; is accessed at non-zero index." verbose="The address of local variable &apos;val&apos; is accessed at non-zero index." cwe="758" hash="9759699051795542811">
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="105" column="26"/>
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="93" column="34" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;val&apos; is accessed at non-zero index." verbose="The address of local variable &apos;val&apos; is accessed at non-zero index." cwe="758" hash="5728522933433263243">
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="106" column="15"/>
+            <location file="ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp" line="93" column="34" info="Address of variable taken here."/>
+        </error>
+        <error id="va_list_usedBeforeStarted" severity="error" msg="va_list &apos;ap&apos; used before va_start() was called." verbose="va_list &apos;ap&apos; used before va_start() was called." cwe="664" hash="8413707651568297537">
+            <location file="ardupilot/libraries/AP_HAL_ChibiOS/system.cpp" line="229" column="27"/>
+        </error>
+        <error id="invalidContainer" severity="error" msg="Using iterator to local container &apos;_timers&apos; that may be invalid." verbose="Using iterator to local container &apos;_timers&apos; that may be invalid." cwe="664" hash="18190985327241506842">
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="125" column="37"/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.h" line="81" column="33" info="Variable created here."/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="128" column="13" info="After calling &apos;erase&apos;, iterators or references to the container&apos;s data may be invalid ."/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="125" column="40" info="Assuming condition is true."/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="127" column="14" info="Assuming condition is true."/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="127" column="14" info="Assuming condition is true."/>
+            <location file="ardupilot/libraries/AP_HAL_Linux/PollerThread.cpp" line="125" column="20" info="Iterator to container is created here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;pkt&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;pkt&apos; might be accessed at non-zero index." cwe="758" hash="5543033681058330616">
+            <location file="ardupilot/libraries/AP_IOMCU/AP_IOMCU.cpp" line="570" column="14"/>
+            <location file="ardupilot/libraries/AP_IOMCU/AP_IOMCU.cpp" line="566" column="29" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;diag_stat&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;diag_stat&apos; might be accessed at non-zero index." cwe="758" hash="4997064573045521756">
+            <location file="ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_ADIS1647x.cpp" line="254" column="17"/>
+            <location file="ardupilot/libraries/AP_InertialSensor/AP_InertialSensor_ADIS1647x.cpp" line="252" column="41" info="Address of variable taken here."/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: msg_len" verbose="Uninitialized variable: msg_len" cwe="457" hash="9057756776511473781">
+            <location file="ardupilot/libraries/AP_Logger/AP_Logger_Backend.cpp" line="206" column="35"/>
+            <location file="ardupilot/libraries/AP_Logger/AP_Logger_Backend.cpp" line="202" column="13" info="Assuming condition is false"/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;q1&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;q1&apos; might be accessed at non-zero index." cwe="758" hash="471174463386729687">
+            <location file="ardupilot/libraries/AP_Math/quaternion.h" line="154" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/quaternion.h" line="150" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;q1&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;q1&apos; might be accessed at non-zero index." cwe="758" hash="2617581285876037088">
+            <location file="ardupilot/libraries/AP_Math/quaternion.h" line="163" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/quaternion.h" line="159" column="27" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;a&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;a&apos; might be accessed at non-zero index." cwe="758" hash="13953612844449317712">
+            <location file="ardupilot/libraries/AP_Math/matrix3.h" line="137" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/matrix3.h" line="133" column="26" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;a&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;a&apos; might be accessed at non-zero index." cwe="758" hash="18324299318954363524">
+            <location file="ardupilot/libraries/AP_Math/matrix3.h" line="145" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/matrix3.h" line="141" column="32" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="11946307116992830001">
+            <location file="ardupilot/libraries/AP_Math/vector2.h" line="114" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/vector2.h" line="110" column="17" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="17870637022168513518">
+            <location file="ardupilot/libraries/AP_Math/vector2.h" line="122" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/vector2.h" line="118" column="23" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="4012543437252118729">
+            <location file="ardupilot/libraries/AP_Math/vector3.h" line="126" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/vector3.h" line="122" column="17" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="2697016171518951535">
+            <location file="ardupilot/libraries/AP_Math/vector3.h" line="134" column="18"/>
+            <location file="ardupilot/libraries/AP_Math/vector3.h" line="130" column="23" info="Address of variable taken here."/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: resume_index" verbose="Uninitialized variable: resume_index" cwe="457" hash="17860617757637408764">
+            <location file="ardupilot/libraries/AP_Mission/AP_Mission.cpp" line="2343" column="50"/>
+            <location file="ardupilot/libraries/AP_Mission/AP_Mission.cpp" line="2329" column="25" info="Assuming condition is false"/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;cmd_set_angles_data&apos; is accessed at non-zero index." verbose="The address of local variable &apos;cmd_set_angles_data&apos; is accessed at non-zero index." cwe="758" hash="10517416770134016932">
+            <location file="ardupilot/libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp" line="189" column="49"/>
+            <location file="ardupilot/libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp" line="187" column="30" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;cmd_set_angles_data&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;cmd_set_angles_data&apos; might be accessed at non-zero index." cwe="758" hash="16369727516699863165">
+            <location file="ardupilot/libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp" line="192" column="25"/>
+            <location file="ardupilot/libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp" line="187" column="30" info="Address of variable taken here."/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: vspd" verbose="Uninitialized variable: vspd" cwe="457" hash="13846437599883768435">
+            <location file="ardupilot/libraries/AP_OSD/AP_OSD_Screen.cpp" line="1648" column="9"/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;burst&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;burst&apos; might be accessed at non-zero index." cwe="758" hash="6756817209037074690">
+            <location file="ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_Pixart.cpp" line="268" column="38"/>
+            <location file="ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_Pixart.cpp" line="256" column="29" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;_frame&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;_frame&apos; might be accessed at non-zero index." cwe="758" hash="16185742852492160001">
+            <location file="ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.h" line="183" column="71"/>
+            <location file="ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.h" line="183" column="63" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;_frame&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;_frame&apos; might be accessed at non-zero index." cwe="758" hash="12119286182933842629">
+            <location file="ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.cpp" line="274" column="42"/>
+            <location file="ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.cpp" line="272" column="31" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;destination&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;destination&apos; might be accessed at non-zero index." cwe="758" hash="3748327878327213647">
+            <location file="ardupilot/libraries/AP_RCTelemetry/AP_CRSF_Telem.cpp" line="303" column="39"/>
+            <location file="ardupilot/libraries/AP_RCTelemetry/AP_CRSF_Telem.cpp" line="300" column="27" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;destination&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;destination&apos; might be accessed at non-zero index." cwe="758" hash="11301267632259862272">
+            <location file="ardupilot/libraries/AP_RCTelemetry/AP_CRSF_Telem.cpp" line="305" column="15"/>
+            <location file="ardupilot/libraries/AP_RCTelemetry/AP_CRSF_Telem.cpp" line="300" column="27" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6778603844056947459">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="389" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3435475131424826436">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="390" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2978087727818045842">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="391" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13242035223650598207">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="392" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8759836710534618823">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="393" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2763093092297149776">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="394" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16526763992216979764">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="395" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17954635544199336331">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="396" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7115523049754975726">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="400" column="64"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13227213274055454">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="412" column="64"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12929431793542044207">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="424" column="59"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7969963553823862528">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="460" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16511601101087244082">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="461" column="52"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8832285930277776338">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="462" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11770953044772496495">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="463" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3130850004206135165">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="464" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15854253737613365524">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="469" column="52"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13471076871604827084">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="470" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8897752077773604474">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="471" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14883953668536672707">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="472" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1183475092880193136">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="473" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16656432438575029142">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="474" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9982044721733883095">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="475" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7818390276984829117">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="476" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="840430687798786386">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="477" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11282471380406250173">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="478" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17393383376274909229">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="479" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12914187564158888098">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="480" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13182477286154242435">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="481" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12576977695393871597">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="482" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17543453635050111165">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="483" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10813551274165637712">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="484" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8472854143120847114">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="485" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11534606354205463376">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="486" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9172133119127197553">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="487" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17021343152845426551">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="491" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7691859355357914593">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="492" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6851324566958302584">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="499" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16242860577115618178">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="500" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8860279857112713239">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="501" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3068924368524680783">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="502" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14617963258852101981">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="503" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1043352643702622852">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="504" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3368511791879075010">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="520" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3346654626307172985">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="521" column="37"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1315171428714589327">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="522" column="44"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17324685617705720403">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="524" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1273742481996820927">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="529" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8087475095682220000">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="530" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3491726314927972725">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="531" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4882657597421184865">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="532" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6620587775600968284">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="533" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14659645717003647454">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="534" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17640907251477605415">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="535" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6157446066865120592">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="536" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5358675885106317423">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="537" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15720159442565475696">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="538" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13660714609641848922">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="539" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16000022698656804847">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="540" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9607640737515568041">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="541" column="83"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="18278025417448795577">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="542" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11588345203327689992">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="543" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17092222290748418798">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="544" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16997292529200077596">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="545" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6236893548873056321">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="546" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15576327931605841328">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="547" column="87"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9700357705437536647">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="550" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8439431320091400112">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="551" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11971906118134193299">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="558" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1838735291500363439">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="559" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8474412034093694981">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="560" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5068164575181771159">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="561" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3540261985124832945">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="562" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11617040603799819007">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="563" column="91"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10980071918943782140">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="579" column="36"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15457903615895411652">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="580" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17726245351810303627">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="581" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17672977284185453402">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="583" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7223967573611719222">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="588" column="52"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4683696649276805532">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="589" column="35"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12825282968132844641">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="591" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2997969624891079258">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="592" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13281144448402537042">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="593" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7973605271469246448">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="594" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1837820688596151407">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="595" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1116943641795376287">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="596" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10745917263250754557">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="597" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="587289365418227068">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="598" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6503796298488455441">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="599" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11395750172416761289">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="600" column="62"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1100404669618978644">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="601" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15589797064428829519">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="602" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1039223189857365874">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="603" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7289993228284120310">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="604" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="18267996947442717588">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="605" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3244092616961918441">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="606" column="65"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2121634430657488662">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="609" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15483319237386744126">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="610" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3027640981457807540">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="617" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17540675212666829184">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="618" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7452257583824751843">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="619" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7071498400246017838">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="620" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="18417035272099201574">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="621" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14148922081623987321">
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="622" column="69"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="444" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp" line="346" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="10217835420471178066">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="54" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="54" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="2123742881631368744">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="59" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="59" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="13768991707619161301">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="64" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="64" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="12116403011948080683">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="69" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="69" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;size&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;size&apos; might be accessed at non-zero index." cwe="758" hash="10714173121684248">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="83" column="7"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/ldump.c" line="83" column="7" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="10180563527190356479">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="69" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="69" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="6988254527928994537">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="76" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="76" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="18309024000516066703">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="83" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="83" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;x&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;x&apos; might be accessed at non-zero index." cwe="758" hash="12254964158301693422">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="90" column="3"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="90" column="3" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of local variable &apos;size&apos; might be accessed at non-zero index." verbose="The address of local variable &apos;size&apos; might be accessed at non-zero index." cwe="758" hash="4174483610883587734">
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="98" column="5"/>
+            <location file="ardupilot/libraries/AP_Scripting/lua/src/lundump.c" line="98" column="5" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12728819907955315673">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="485" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2698432527514679876">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="486" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1940427280852619957">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="487" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10095020936306064930">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="488" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1936913797611242197">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="489" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2074862363327653860">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="490" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13436639512513218076">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="491" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12770625210004018128">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="492" column="11"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1341738731435520557">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="496" column="79"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9865976366839460003">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="508" column="58"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;longitude&apos; is accessed at non-zero index." verbose="The address of local variable &apos;longitude&apos; is accessed at non-zero index." cwe="758" hash="662064656722038562">
+            <location file="ardupilot/libraries/SITL/SIM_JSBSim.cpp" line="405" column="21"/>
+            <location file="ardupilot/libraries/SITL/SIM_JSBSim.cpp" line="401" column="23" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;longitude&apos; is accessed at non-zero index." verbose="The address of local variable &apos;longitude&apos; is accessed at non-zero index." cwe="758" hash="7288967427914471952">
+            <location file="ardupilot/libraries/SITL/SIM_JSBSim.cpp" line="406" column="12"/>
+            <location file="ardupilot/libraries/SITL/SIM_JSBSim.cpp" line="401" column="23" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7684626900724092878">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="520" column="58"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2812920864873728006">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="549" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1793490226022655848">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="551" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7041676023394174302">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="552" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1956331413855991135">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="553" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="57092169031774298">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="562" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="969261375043357640">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="563" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12922209309444359454">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="567" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9100369757592479500">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="568" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16345821064703308619">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="569" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10571437181228398310">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="570" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8880896371271478289">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="571" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11866011152681567358">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="572" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9532207778382021262">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="573" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1477261064013558737">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="574" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11101191893327158493">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="575" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7651652363485150884">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="576" column="81"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13624998349769768939">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="579" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11018480306125351134">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="580" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10624335150343148045">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="581" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12499031106778837960">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="588" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14785582903171665755">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="589" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12128596624362036593">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="590" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5887424036931501279">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="597" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13621909339374520907">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="598" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7940736973727290682">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="599" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4780736045784596001">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="600" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="13122808943445928930">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="601" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9948868175616065577">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="602" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="378872680440332313">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="610" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8645031044770896074">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="611" column="89"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3293238036230687756">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="624" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6435270670635899768">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="625" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5634961331160215575">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="627" column="45"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4540913796077057104">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="629" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5125229039033977312">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="637" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12872908314804245016">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="638" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1127578149248631426">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="642" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4624982958341812111">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="643" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11650854651135503787">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="644" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8047700861014742111">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="645" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6232860189671140197">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="646" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6663272008482598064">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="647" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6046286639921228317">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="648" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11286809914153773561">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="649" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12487574554702032792">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="650" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1222900168619493608">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="651" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17047294225518424285">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="654" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="6893147772740012795">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="655" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="17303151252005948722">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="656" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="563002893885369867">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="663" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="635083208418741106">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="664" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11025731916945615052">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="665" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8073015401520749246">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="673" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12388259756443914714">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="674" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11708021221759146875">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="675" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="18154181540516618491">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="676" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2805187070808153483">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="677" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9069008490398437465">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="678" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12176676042970018489">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="686" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16155279893952701254">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="687" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14740663837440155533">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="701" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11743998545002048155">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="702" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1446839082586157158">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="703" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12230431986132110553">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="707" column="31"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1523415583624775165">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="714" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="16868074018475540394">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="715" column="30"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3503276946497393226">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="719" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3759666671106657964">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="720" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11243982260035423537">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="721" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12919375672668276995">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="722" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12984139745559836311">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="723" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7363373527303989181">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="724" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="4758428810649213582">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="725" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="9010525727008686083">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="726" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="10274266007814449543">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="727" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5497703576507379934">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="728" column="61"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11086694790837734529">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="731" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="7919093063311754647">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="732" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2048921165942074681">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="733" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="8024348460715574344">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="740" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="3958710330844187763">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="741" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="14351202844025037923">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="742" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="1339040311880365807">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="750" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="2914343528344872707">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="751" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15096230959311470406">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="752" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="15877239229109281226">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="753" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="5549279582881690861">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="754" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12908396535864434155">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="755" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="12850381102802916375">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="763" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." verbose="The address of local variable &apos;SH_MAG&apos; is accessed at non-zero index." cwe="758" hash="11657455416914236663">
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="764" column="68"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="540" column="9" info="Assuming condition is false"/>
+            <location file="ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp" line="434" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: fre_sect" verbose="Uninitialized variable: fre_sect" cwe="457" hash="8492317494732723239">
+            <location file="ardupilot/modules/ChibiOS/demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/main.c" line="174" column="12"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: tot_sect" verbose="Uninitialized variable: tot_sect" cwe="457" hash="6696508170778827888">
+            <location file="ardupilot/modules/ChibiOS/demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/main.c" line="176" column="12"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/demos/STM32/RT-STM32F107-OLIMEX_P107-LWIP/web/web.c" line="99" column="79"/>
+        </error>
+        <error id="autoVariables" severity="error" msg="Address of local auto-variable assigned to a function parameter." verbose="Dangerous assignment - the function parameter is assigned the address of a local auto-variable. Local auto-variables are reserved from the stack which is freed when the function ends. So the pointer to a local variable is invalid after the function ends." cwe="562" hash="16651281407537380436">
+            <location file="ardupilot/modules/ChibiOS/os/hal/osal/os-less/AVR/osal.c" line="208" column="3"/>
+        </error>
+        <error id="autoVariables" severity="error" msg="Address of local auto-variable assigned to a function parameter." verbose="Dangerous assignment - the function parameter is assigned the address of a local auto-variable. Local auto-variables are reserved from the stack which is freed when the function ends. So the pointer to a local variable is invalid after the function ends." cwe="562" hash="7839976874493970170">
+            <location file="ardupilot/modules/ChibiOS/os/hal/osal/os-less/ARMCMx/osal.c" line="208" column="3"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;}&apos;. Configuration: &apos;AVR_SPI_USE_16BIT_POLLED_EXCHANGE;__DOXYGEN__&apos;." verbose="Unmatched &apos;}&apos;. Configuration: &apos;AVR_SPI_USE_16BIT_POLLED_EXCHANGE;__DOXYGEN__&apos;.">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/AVR/MEGA/LLD/SPIv1/hal_spi_lld.c" line="147" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;}&apos;. Configuration: &apos;__DOXYGEN__&apos;." verbose="Unmatched &apos;}&apos;. Configuration: &apos;__DOXYGEN__&apos;.">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/AVR/MEGA/LLD/SPIv1/hal_spi_lld.c" line="147" column="1"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition, division/modulo by zero" verbose="failed to evaluate #if condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/AVR/MEGA/LLD/TIMv1/hal_st_lld.c" line="64" column="0"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition, division/modulo by zero" verbose="failed to evaluate #if condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/AVR/TINY/LLD/TIMv1/hal_st_lld.c" line="64" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/LLD/MACv1/hal_mac_lld.c" line="94" column="10"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/LLD/USARTv1/hal_uart_lld.c" line="152" column="10"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: res" verbose="Uninitialized variable: res" cwe="457" hash="12462404661268258031">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/SAMA5D2x/hal_crypto_lld.c" line="1550" column="7"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition, division/modulo by zero" verbose="failed to evaluate #if condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/SAMA5D2x/hal_st_lld.c" line="67" column="0"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition, division/modulo by zero" verbose="failed to evaluate #if condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/SAMA5D2x/hal_st_lld.c" line="73" column="0"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: frame_set" verbose="Uninitialized variable: frame_set" cwe="457" hash="2146345268989637702">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/SAMA5D2x/sama_classd.c" line="295" column="50"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/SAMA/SAMA5D2x/sama_lcdc.c" line="213" column="1"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition, division/modulo by zero" verbose="failed to evaluate #if condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.c" line="254" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/ChibiOS/os/hal/ports/simulator/posix/hal_lld.c" line="82" column="29"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #elif condition, division/modulo by zero" verbose="failed to evaluate #elif condition, division/modulo by zero">
+            <location file="ardupilot/modules/ChibiOS/os/various/lwip_bindings/arch/sys_arch.c" line="234" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/test/crypto/source/test/cry_test_root.c" line="130" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ALIGNED_VAR is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/test/rt/source/test/rt_test_root.c" line="93" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CC_ALIGN is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CC_ALIGN is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/testhal/STM32/multi/SPI/main.c" line="26" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CC_ALIGN is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CC_ALIGN is a macro then please configure it.">
+            <location file="ardupilot/modules/ChibiOS/testhal/STM32/multi/SPI_USB/main.c" line="35" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/bindings/python/benchmark/benchmark.cc" line="37" column="1"/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;local_buff&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;local_buff&apos; that will be invalid when returning." cwe="562" hash="7813534133107541084">
+            <location file="ardupilot/modules/gbenchmark/src/colorprint.cc" line="102" column="12"/>
+            <location file="ardupilot/modules/gbenchmark/src/colorprint.cc" line="91" column="8" info="Variable created here."/>
+            <location file="ardupilot/modules/gbenchmark/src/colorprint.cc" line="102" column="12" info="Array decayed to pointer here."/>
+        </error>
+        <error id="deallocret" severity="error" msg="Returning/dereferencing &apos;bench&apos; after it is deallocated / released" verbose="Returning/dereferencing &apos;bench&apos; after it is deallocated / released" cwe="672" hash="1855063778181262042">
+            <location file="ardupilot/modules/gbenchmark/src/benchmark_register.cc" line="245" column="3"/>
+            <location file="ardupilot/modules/gbenchmark/src/benchmark_register.cc" line="242" column="40"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/benchmark_gtest.cc" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/benchmark_name_gtest.cc" line="9" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/commandlineflags_gtest.cc" line="33" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/commandlineflags_gtest.cc" line="28" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_F is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_F is a macro then please configure it.">
+            <location file="ardupilot/modules/gbenchmark/test/fixture_test.cc" line="28" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_DEFINE_F is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_DEFINE_F is a macro then please configure it.">
+            <location file="ardupilot/modules/gbenchmark/test/map_test.cc" line="46" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_DEFINE_F is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_DEFINE_F is a macro then please configure it.">
+            <location file="ardupilot/modules/gbenchmark/test/multiple_ranges_test.cc" line="67" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/statistics_gtest.cc" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gbenchmark/test/string_util_gtest.cc" line="71" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_TEMPLATE_F is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BENCHMARK_TEMPLATE_F is a macro then please configure it.">
+            <location file="ardupilot/modules/gbenchmark/test/templated_fixture_test.cc" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-cardinalities_test.cc" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-actions_test.cc" line="96" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-function-mocker_test.cc" line="199" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-generated-actions_test.cc" line="965" column="39"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-generated-function-mockers_test.cc" line="193" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-internal-utils_test.cc" line="77" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-nice-strict_test.cc" line="233" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-nice-strict_test.cc" line="136" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-generated-matchers_test.cc" line="151" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-more-actions_test.cc" line="227" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If sss is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If sss is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-pp-string_test.cc" line="110" column="3"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If sss is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If sss is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-pp_test.cc" line="44" column="41"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock_ex_test.cc" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-spec-builders_test.cc" line="123" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock_leak_test_.cc" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock_stress_test.cc" line="197" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample10_unittest.cc" line="94" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample1_unittest.cc" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample2_unittest.cc" line="77" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample3_unittest.cc" line="120" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample5_unittest.cc" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample7_unittest.cc" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample8_unittest.cc" line="107" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample6_unittest.cc" line="99" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample9_unittest.cc" line="90" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/samples/sample6_unittest.cc" line="170" column="1"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dummy" verbose="Uninitialized variable: dummy" cwe="457" hash="16916585162092541938">
+            <location file="ardupilot/modules/gtest/googletest/src/gtest-death-test.cc" line="1301" column="26"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googlemock/test/gmock-matchers_test.cc" line="169" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-death-test-test.cc" line="1421" column="29"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-death-test-test.cc" line="749" column="65"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-death-test-test.cc" line="1344" column="53"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-filepath-test.cc" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-filter-unittest_.cc" line="49" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-message-test.cc" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-options-test.cc" line="60" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-listener-test.cc" line="226" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-output-test_.cc" line="105" column="26"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-param-test-invalid-name2-test_.cc" line="41" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-param-test-invalid-name1-test_.cc" line="36" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-param-test-test.cc" line="1086" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-port-test.cc" line="67" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-shuffle-test_.cc" line="49" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-test-part-test.cc" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest-typed-test_test.cc" line="167" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest-unittest-api_test.cc" line="113" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest-unittest-api_test.cc" line="101" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest-typed-test_test.cc" line="412" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_environment_test.cc" line="107" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/googletest-printers-test.cc" line="251" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_premature_exit_test.cc" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_repeat_test.cc" line="85" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it.">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_sole_header_test.cc" line="43" column="27"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_stress_test.cc" line="119" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/gtest/googletest/test/gtest_unittest.cc" line="5340" column="26"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error">
+            <location file="ardupilot/modules/libcanard/drivers/avr/avr-can-lib/demo/main.c" line="63" column="19"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: static_cast&lt;volatile int*&gt;(nullptr)" verbose="Null pointer dereference: static_cast&lt;volatile int*&gt;(nullptr)" cwe="476" hash="2125237624070908992">
+            <location file="ardupilot/modules/gtest/googletest/src/gtest.cc" line="4999" column="34" info="Null pointer dereference"/>
+        </error>
+        <error id="danglingTemporaryLifetime" severity="error" msg="Using object to temporary." verbose="Using object to temporary." cwe="562" hash="6620459301145995799">
+            <location file="ardupilot/modules/uavcan/libuavcan/test/node/service_client.cpp" line="281" column="37"/>
+            <location file="ardupilot/modules/uavcan/libuavcan/test/node/service_client.cpp" line="280" column="40" info="Pointer to container is created here."/>
+        </error>
+        <error id="danglingTemporaryLifetime" severity="error" msg="Using object to temporary." verbose="Using object to temporary." cwe="562" hash="16966100655285223233">
+            <location file="ardupilot/modules/uavcan/libuavcan/test/node/service_client.cpp" line="326" column="22"/>
+            <location file="ardupilot/modules/uavcan/libuavcan/test/node/service_client.cpp" line="322" column="47" info="Pointer to container is created here."/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" hash="3644065993735735914">
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="276" column="40" info="Division by zero"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="275" column="5" info="Compound assignment &apos;&amp;=&apos;, assigned value is 0"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="263" column="14" info="Assuming condition is false"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="242" column="21" info="Assignment &apos;mval=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" hash="1515985154571895921" inconclusive="true">
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="287" column="48" info="Division by zero"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="275" column="5" info="Compound assignment &apos;&amp;=&apos;, assigned value is 0"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="263" column="14" info="Assuming condition is false"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/lpc_chip_11cxx_lib/src/uart_11xx.c" line="242" column="21" info="Assignment &apos;mval=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Comparing pointers that point to different objects" verbose="Comparing pointers that point to different objects" cwe="570" hash="15167091997949813571">
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="54" column="19"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="54" column="21" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="18" column="17" info="Variable declared here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="53" column="24" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="17" column="17" info="Variable declared here."/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Comparing pointers that point to different objects" verbose="Comparing pointers that point to different objects" cwe="570" hash="11725818864617814962">
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="61" column="5"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="61" column="5" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="21" column="17" info="Variable declared here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="61" column="5" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="20" column="17" info="Variable declared here."/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Comparing pointers that point to different objects" verbose="Comparing pointers that point to different objects" cwe="570" hash="13610566862472212574">
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="68" column="20"/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="68" column="22" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="24" column="17" info="Variable declared here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="67" column="25" info="Address of variable taken here."/>
+            <location file="ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c" line="23" column="17" info="Variable declared here."/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Subtracting pointers that point to different objects" verbose="Subtracting pointers that point to different objects" cwe="570" hash="6391603821451496451">
+            <location file="ardupilot/modules/waf/playground/embedded_resources/main.c" line="10" column="18"/>
+            <location file="ardupilot/modules/waf/playground/embedded_resources/main.c" line="10" column="18" info="Array decayed to pointer here."/>
+            <location file="ardupilot/modules/waf/playground/embedded_resources/main.c" line="8" column="2" info="Variable declared here."/>
+            <location file="ardupilot/modules/waf/playground/embedded_resources/main.c" line="10" column="18" info="Array decayed to pointer here."/>
+            <location file="ardupilot/modules/waf/playground/embedded_resources/main.c" line="8" column="2" info="Variable declared here."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: =[...];" verbose="syntax error: =[...];">
+            <location file="ardupilot/modules/libcanard/tests/catch/catch.hpp" line="2489" column="20"/>
+        </error>
+    </errors>
+</results>

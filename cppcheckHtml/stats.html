@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cppcheck - HTML report - [project name]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <script>
+      function getStyle(el, styleProp) {
+        var y;
+
+        if (el.currentStyle) {
+          y = el.currentStyle[styleProp];
+        } else if (window.getComputedStyle) {
+          y = document.defaultView.getComputedStyle(el, null).getPropertyValue(styleProp);
+        }
+
+        return y;
+      }
+
+      function toggle() {
+        var el = this.expandable_content;
+        var mark = this.expandable_marker;
+
+        if (el.style.display === "block") {
+          el.style.display = "none";
+          mark.textContent = "[+]";
+        } else {
+          el.style.display = "block";
+          mark.textContent = "[-]";
+        }
+      }
+
+      function initExpandables() {
+        var elements = document.querySelectorAll(".expandable");
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          var el = elements[i];
+          var clickable = el.querySelector("span");
+          var marker = clickable.querySelector(".marker");
+          var content = el.querySelector(".content");
+          var width = clickable.clientWidth - parseInt(getStyle(content, "padding-left")) - parseInt(getStyle(content, "padding-right"));
+          content.style.width = width + "px";
+          clickable.expandable_content = content;
+          clickable.expandable_marker = marker;
+          clickable.addEventListener("click", toggle);
+        }
+      }
+
+      function toggleDisplay(id) {
+        var elements = document.querySelectorAll("." + id);
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          elements[i].classList.toggle("d-none");
+        }
+      }
+
+      function toggleAll() {
+        var elements = document.querySelectorAll("input");
+
+        // starting from 1 since 0 is the "toggle all" input
+        for (var i = 1, len = elements.length; i < len; i++) {
+          var el = elements[i];
+
+          if (el.checked) {
+            el.checked = false;
+          } else {
+            el.checked = true;
+          }
+
+          toggleDisplay(el.id);
+        }
+      }
+      window.addEventListener("load", initExpandables);
+    </script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <h1>Cppcheck report - [project name]: Statistics</h1>
+    </div>
+    <div class="wrapper">
+      <div id="menu_index">
+       <p id="filename"><a href="index.html">Back to summary</a> </p>
+
+    </div>
+    <div id="content_index">
+<p>Top 10 files for error severity, total findings: 325<br>
+&#160;&#160;&#160;104&#160;<a href="26.html">  ardupilot/libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp</a><br>
+&#160;&#160;&#160;101&#160;<a href="30.html">  ardupilot/libraries/AP_NavEKF3/AP_NavEKF3_MagFusion.cpp</a><br>
+&#160;&#160;&#160;4&#160;&#160;&#160;<a href="6.html">  ardupilot/libraries/AP_GPS/GPS_Backend.cpp</a><br>
+&#160;&#160;&#160;3&#160;&#160;&#160;<a href="114.html">  ardupilot/modules/uavcan/libuavcan_drivers/lpc11c24/test_olimex_lpc_p11c24/src/sys/crt0.c</a><br>
+&#160;&#160;&#160;3&#160;&#160;&#160;<a href="89.html">  ardupilot/modules/gtest/googletest/test/googletest-death-test-test.cc</a><br>
+&#160;&#160;&#160;3&#160;&#160;&#160;<a href="9.html">  ardupilot/libraries/AP_HAL/utility/ftoa_engine.cpp</a><br>
+&#160;&#160;&#160;2&#160;&#160;&#160;<a href="113.html">  ardupilot/modules/uavcan/libuavcan/test/node/service_client.cpp</a><br>
+&#160;&#160;&#160;2&#160;&#160;&#160;<a href="104.html">  ardupilot/modules/gtest/googletest/test/gtest-unittest-api_test.cc</a><br>
+&#160;&#160;&#160;2&#160;&#160;&#160;<a href="103.html">  ardupilot/modules/gtest/googletest/test/gtest-typed-test_test.cc</a><br>
+&#160;&#160;&#160;2&#160;&#160;&#160;<a href="84.html">  ardupilot/modules/gtest/googletest/samples/sample6_unittest.cc</a><br>
+</p>
+<p>Top 10 files for warning severity, total findings: 29<br>
+&#160;&#160;&#160;5&#160;<a href="28.html">  ardupilot/libraries/AP_Scripting/lua/src/lundump.c</a><br>
+&#160;&#160;&#160;5&#160;<a href="27.html">  ardupilot/libraries/AP_Scripting/lua/src/ldump.c</a><br>
+&#160;&#160;&#160;2&#160;<a href="25.html">  ardupilot/libraries/AP_RCTelemetry/AP_CRSF_Telem.cpp</a><br>
+&#160;&#160;&#160;2&#160;<a href="18.html">  ardupilot/libraries/AP_Math/vector3.h</a><br>
+&#160;&#160;&#160;2&#160;<a href="17.html">  ardupilot/libraries/AP_Math/vector2.h</a><br>
+&#160;&#160;&#160;2&#160;<a href="15.html">  ardupilot/libraries/AP_Math/quaternion.h</a><br>
+&#160;&#160;&#160;2&#160;<a href="16.html">  ardupilot/libraries/AP_Math/matrix3.h</a><br>
+&#160;&#160;&#160;1&#160;<a href="23.html">  ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.h</a><br>
+&#160;&#160;&#160;1&#160;<a href="24.html">  ardupilot/libraries/AP_RCProtocol/AP_RCProtocol_CRSF.cpp</a><br>
+&#160;&#160;&#160;1&#160;<a href="22.html">  ardupilot/libraries/AP_OpticalFlow/AP_OpticalFlow_Pixart.cpp</a><br>
+</p>
+
+      </div> <!-- /.wrapper -->
+    </div>
+    <div id="footer" class="footer">
+      <p>
+        Cppcheck 2.3 - a tool for static C/C++ code analysis<br>
+        <br>
+        Internet: <a href="http://cppcheck.net">http://cppcheck.net</a><br>
+        IRC: <a href="irc://irc.freenode.net/cppcheck">irc://irc.freenode.net/cppcheck</a><br>
+      </p>
+    </div>
+  </body>
+</html>
